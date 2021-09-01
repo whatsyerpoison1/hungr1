@@ -1,0 +1,27 @@
+.image-carousel {
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.user-details {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  width: 200px;
+  margin-left: -135px;
+  font-size: 18px;
+  .user-name {
+    font-size: 28px;
+  }
+
+  .user-job {
+    margin-left: 10px;
+  }
+
+  .user-location {
+    margin-left: 20px;
+  }
+}

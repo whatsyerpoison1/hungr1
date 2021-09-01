@@ -1,0 +1,18 @@
+<ul id="slides">
+  <% @users.each_with_index do |user| %>
+    <li class="slide" data-id="<%= user.id %>">
+      <div class="image-carousel" style="background-image: url('<%= url_for user.images.first %>')">
+      </div>
+      <div class="user-details">
+        <span class="user-name"><%= user.name %></span>, 22<br />
+        <i class="fa fa-graduation-cap"></i><span class="user-job">Job / Studies</span><br />
+        <i class="fa fa-map-marker"></i><span class="user-location">Location</span>
+      </div>
+    </li>
+  <% end %>
+</ul>
+
+<div id="slide-controls">
+  <span id="decline"><i class="fa fa-times fa-2x"></i></span>
+  <span id="approve"><i class="fa fa-heart fa-2x"></i></span>
+</div>

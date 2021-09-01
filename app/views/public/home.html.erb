@@ -1,2 +1,26 @@
-<h1>Public#home</h1>
-<p>Find me in app/views/public/home.html.erb</p>
+
+<div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+  <h1 class="display-4 fw-bold">Dinter</h1>
+  <p class="fs-5 text-muted">Join The Best Dating App</p>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 mb-3 text-center justify-content-center">
+  <div class="col-6">
+    <div class="card mb-4 rounded-3 shadow-sm">
+      <div class="card-header py-3 bg-color">
+        <h4 class="my-0 fw-normal">Get Started</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">Single people, listen up<small class="text-muted fw-light"></small></h1>
+        <div class="mt-3 mb-4">
+          Tinder isn’t your average dating site — it’s the most diverse dating app,
+          where adults of all backgrounds and experiences are invited to make connections,
+          memories, and everything in between.
+        </div>
+        <%= link_to new_user_registration_path do %>
+          <button type="button" class="w-100 btn btn-lg brand-button">Join Now</button>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

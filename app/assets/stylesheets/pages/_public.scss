@@ -1,0 +1,37 @@
+@import 'colors';
+
+.brand-button {
+  background-color: #fff;
+  color: $brand !important;
+  border: 1px solid $border !important;
+  border-radius: 10px !important;
+  &:hover {
+    color: #fff !important;
+    background: $gradient-brand;
+  }
+}
+
+.btn-nav-signin {
+  background-color: #fff;
+  color: $brand2 !important;
+  &:hover {
+    color: $dark-brand !important;
+  }
+}
+
+.btn-nav-signup  {
+  background-color: #fff;
+  color: $brand2 !important;
+  border: 1px solid $brand2 !important;
+  border-radius: 3px !important;
+  &:hover {
+    border-color: $dark-brand !important;
+    color: $dark-brand !important;
+  }
+}
+
+.link-brand {
+  &:hover {
+    color: $brand2 !important;
+  }
+}
